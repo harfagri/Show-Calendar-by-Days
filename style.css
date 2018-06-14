@@ -1,0 +1,131 @@
+body{
+  background-color:#3690b9;
+}
+.firstday {
+  background: orange;
+  color: white;
+  font-weight: bold
+}
+.disa {
+  background: #d8d2d2bd;
+  color:#d8d2d2bd;
+}
+ 
+.weekend {
+  
+  background: #f5f517;
+
+}
+.week {
+  
+  background: #80e880;
+}
+.heads {
+  
+  background: white;
+  
+}
+table {
+  
+  background: white;
+  border-bottom: 1px solid black;
+  text-align: right;
+}
+ 
+
+ 
+table ,tbody {
+  font-family: Consolas, monospace;
+  text-align: right;
+
+  background: #d8d2d2bd;
+  border: 0px solid black
+}
+ 
+td, th {
+  padding: 3px 5px;
+  
+}
+h2{
+   font-family: Consolas, monospace;
+   text-align: center;
+
+}
+p{
+  background-color: white;
+  text-align: center;
+  margin: 0px;
+  border-color: #d8d2d2bd;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+
+}
+.tform{
+
+    font-size: 15px;
+    margin: 10px auto;
+    width: 300px;
+}
+.form-screen {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px
+}
+
+.btn {
+  border: 2px solid transparent;
+  background: #3690b9;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+}
+
+select {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 102%;
+transition: border .5s;
+}
+select, option {
+text-align: center;
+}
+
+input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 100%;
+transition: border .5s;
+}
+.control-group {
+margin-bottom: 10px;
+}
+label{
+  margin-left: 20px;
+  text-align: center;
+}
+.dshow {
+  text-align: center;
+  border:none;
+  margin: 0px;
+
+}
+

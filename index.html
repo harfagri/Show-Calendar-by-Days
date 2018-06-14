@@ -1,0 +1,59 @@
+<!DOCtype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Calendar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="calendar.js"></script>
+</head>
+ 
+<body>
+  <div class="tform">
+    <div class="form-screen">
+      <h2>Calendar by Days</h2>
+      <p>current date are set by default, you can set ANY Date</p>
+
+      <div class="control-group">
+        <input type="text" id="tfYear" size="4" maxlength="4"><br><br>
+        <form id="frmCalendar">
+          <select id="selMonth">
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
+          </select>
+      </div>
+
+      <div class="control-group">
+        <input type="text" id="tfDay" size="2" maxlength="2" placeholder="Day"><br><br>
+      </div>
+
+      <div class="control-group">
+        <input type="text" id="setDay" size="4" maxlength="4" placeholder="Set number of Days to show 1-9999"><br><br>
+        <label>Press Enter after set SetDay to show.</label>
+        
+      </div>
+      <div class="control-group">
+        <input type="button" id="btnShow"     value="Show" class="btn btn-primary btn-large btn-block">
+        <p class="dshow">Or Press Show Button.</p>
+      </div>
+
+      <div class="control-group">
+        <input type="button" id="btnToday"     value="Reset" class="btn btn-primary btn-large btn-block">
+        <p class="dshow">Reset button will clear the screen and set the current Date.</p>
+      </div>
+        <table id="tableCalendar"></table>
+        
+      </form>
+     </div> 
+  </div>
+</body>
+</html>
